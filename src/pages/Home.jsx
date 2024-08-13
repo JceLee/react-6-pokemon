@@ -34,7 +34,6 @@ const StartButton = styled.button`
 
 function Home() {
   const navigate = useNavigate();
-
   return (
     <HomeContainer>
       <Logo src={logo} alt="Pokemon Logo" />
